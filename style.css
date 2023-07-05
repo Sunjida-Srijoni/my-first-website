@@ -1,0 +1,13 @@
+div{
+    background-color: tomato;
+    padding: 10px;
+    border: 5px dashed orange;
+}
+.second{
+    background-color: aqua;
+    border: 20px solid blueviolet;
+}
+.third{
+    background-color: cornflowerblue;
+    border: 5px dotted blue;
+}

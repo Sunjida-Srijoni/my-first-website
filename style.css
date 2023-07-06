@@ -2,31 +2,110 @@
     margin: 0px;
     padding: 0px;
 }
-.test{
-    color: blue;
-    cursor: url("images/decor.jpg"),auto;
-   
-
-}
 
 
+/* header starts here */
 
-.container{
+.menu-container{
+    background-color: rgb(55, 49, 49);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: row-reverse;
+    list-style: none;
+    height: 100px;
+   
+}
+.menus{
+    display: flex;
+    color: white;
 
 }
-.box1{
-  
-    background-color: red;
+.logo-pic{
+    padding: 20px;
+    width: 120px;
+}
+
+.item{
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+    border: 30px;
+    border-radius: 5px;
+    background-color: rgb(68, 168, 168);
+}
+
+/* header ends here */
+
+
+
+/* main starts here */
+
+.banner-container{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border: 2px solid rgb(27, 24, 24);
+    background-image: url("images/background.png");
+    background-image: linear-gradient(45deg,black,rgb(47, 41, 41));
+    
+    align-items: center;
+   
     
 
 }
-.box2{
-    background-color: blue;
+.banner-text{
+    margin: 50px;
 }
-.box3{
-    background-color: green;
+
+.banner-text,h1{
+    font-size: 50px;
+    padding: 10px;
+    
+
 }
+
+.banner-text,p{
+    font-size: 20px;
+    padding: 10px;
+}
+.banner-img{
+    height: 400px;
+    width:400px;
+ 
+}
+.btn{
+    margin: 10px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.about-title{
+    padding: 20px;
+    text-align: center;
+}
+
+.about-info{
+    font-size: 20px;
+}
+.about-info,h2{
+    margin: 10px;
+}
+/* main ends here */
+
+
+
+
+/* footer starts here */
+
+/* footer ends here */
